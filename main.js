@@ -36,7 +36,9 @@ instructorHeight = (height) => {
     return 62;
   } else if (height === 'Mesuara') {
     return 69;
-  } return "I don't know that instructor!"
+  } else {
+    return "I don't know that instructor!"
+  }
 }
 
 /**********************************
