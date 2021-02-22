@@ -7,12 +7,13 @@ isItLong = (str) => {
     return "That's a long string!"
   }
 }
-
+// Return undefined not needed 
 isItMedium = (str) => {
   if (str.length >= 10 && str.length <= 20) {
     return "That's a regular sized string!";
   }
 }
+// Inclusive less than or equal too.
 
 isItShort = (str) => {
   if (str.length < 10) {
@@ -25,11 +26,9 @@ isItShort = (str) => {
 howLongIsMyString = (str) => {
   if (str.length > 20) {
     return "That's a long string!"
-  } else if (str.length >= 10 && str.length <= 20) {
+  } else if (str.length >= 10) {
     return "That's a regular sized string!"
-  } else if (str.length < 10) {
-    return "That's a small string!"
-  }
+  } else return "That's a small string!"
 }
 
 instructorHeight = (height) => {
